@@ -1,0 +1,205 @@
+﻿*,*:after,*:before{
+
+    /**outoprefixer CSS online, mete o codigo css e ele transfora com os prefixos,*/
+    -webkit-box-sizing: border-box;/*compatibilidade para os browsers */
+        -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.self-clear:before, .self-clear:after{
+    content: "";
+    display: table;
+}
+.self-clear:after{
+    clear: both;
+}
+/* hack para IE */
+.self-clear{
+    *zoom:1;
+
+}
+    
+    html{
+    font-family: Arial,sans-serif;
+    }
+    
+    img, video, object{
+    max-width: 100%;
+    height: auto;
+    }
+
+    h1{
+        font-size: 38px;
+        font-family: Arial,sans-serif;
+        font-weight: bold;
+        text-align: center;
+        color: rgb(112, 109, 109);
+        margin-bottom: 40px;
+        margin-top: 90px;
+    
+    }
+
+    p{
+        font-family: Arial,sans-serif;
+        font-size: 18px;
+        line-height: 30px;
+        text-align: justify;
+        font-weight: bold;
+        color:#aaa;
+    }
+    ul,ol {
+        list-style-type: none;
+    }
+
+    a{
+        text-decoration: none;
+    }
+    .container{
+        max-width: 1020px;
+        margin: 0 auto;
+    }
+
+    /*--------------------------------------*/
+    /*--------------SITE Hedaer------------------*/
+    /*--------------------------------------*/
+    
+    .site{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(70, 68, 68);
+    
+    }
+
+    .logo {
+        
+        background-color: #aaa;
+        width: 80px;
+        height:80px;
+        margin: 31px;
+        
+      }
+    
+    /*--------------------------------------*/
+    /*--------------MENU------------------*/
+    /*--------------------------------------*/
+    
+     .my-nav {
+        position: relative;
+     }
+     .my-nav ul {
+        width: 100%;
+        background: #aaa;
+        position: absolute;
+        margin-top: 20px;
+     }
+
+     .my-nav li{
+        padding: 10px;
+        float: right;     
+     }
+
+     .my-nav a:hover{   
+        text-transform: uppercase;
+        color: #929695;
+
+    }
+    .my-nav a {
+        color: white;
+    }
+    
+    /*--------------------------------------*/
+    /*--------------pri(principal)-----------*/
+    .col-2{
+        float: left;
+        width: 50%;
+        padding: 15px;
+        background: #aaa;
+
+    }
+    .texto{
+        float: left;    
+        width: 50%;
+        float: left;
+        padding: 15px;;
+
+    }
+    /*--------------------------------------*/
+    /*--------------portifólio-----------*/
+    /*--------------------------------------*/
+    .h1-separador p{
+        text-align: center;
+    }
+    
+
+    .menu-2 {
+        padding: 15px;
+        width: 100%;
+
+
+    }
+    .fake{
+        width: 100%;
+        text-align: center;
+    }
+    .fake-image-4{
+        background-color: #aaa;
+        height: 40px;
+        width: 85px;
+       margin: 15px;
+    }
+    /*--------------------------------------*/
+    /*--------------coluna 6 image----------*/
+    /*--------------------------------------*/
+
+    .fake-6{
+        width: 300px;
+        float: left;
+        margin-left: 28px;
+    }
+
+    .fake-image-6{
+        background-color: #aaa;
+        height: 300px;
+        width: 300px;
+        margin: 15px;
+    }
+
+    h2{
+        font-size: 20px;
+        font-family: Arial,sans-serif;
+        font-weight: bold;
+        text-align: center;
+        color: rgb(128, 126, 126);
+        
+    }
+
+    .fake-6 p {
+        font-family: Arial,sans-serif;
+        font-size: 14px;
+        text-align: center;
+        color:#aaa;
+    }
+    /*--------------------------------------*/
+    /*--------------mapa--------------------*/
+    /*--------------------------------------*/
+    .col-mapa{
+        width: 100%;
+    }
+
+    .fake-mapa{
+        background-color: #aaa;
+        height: 395px;
+        width: 100%;
+        margin: 15px;
+
+    }
+    /*--------------------------------------*/
+    /*--------------footer------------------*/
+    /*--------------------------------------*/
+    .my-footer{
+    width: 100%;
+    background-color: rgb(70, 68, 68);
+    height: 165px;
+    } 
+
+    
